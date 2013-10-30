@@ -5,6 +5,10 @@
   "author": "Maciej Małecki <me@mmalecki.com>",
   "license": "MIT",
   "main": "./lib/joke.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmalecki/joke.git"
+  },
   "scripts": {
     "test": "node test/simple-test.js"
   }
