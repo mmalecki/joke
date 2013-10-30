@@ -1,8 +1,9 @@
+var net = require('net');
 var joke = require('../')();
 
 joke
   .pipe(joke.stringify())
-  .pipe(process.stdout);
+  .pipe(net.connect({ host: 'localhost', port: 1337 }));
 
 joke.debug('Application starting!');
 joke.info('Hello', { name: 'Maciej' });

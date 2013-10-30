@@ -1,4 +1,9 @@
+var net = require('net');
 var joke = require('../')();
+
+joke
+  .pipe(joke.stringify())
+  .pipe(net.connect({ host: 'localhost', port: 1337 }));
 
 joke
   .pipe(joke.stringify())
