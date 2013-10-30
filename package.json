@@ -1,7 +1,7 @@
 {
   "name": "joke",
   "description": "Logging is a serious business",
-  "version": "0.0.1",
+  "version": "0.0.1-1",
   "author": "Maciej Małecki <me@mmalecki.com>",
   "license": "MIT",
   "main": "./lib/joke.js",
