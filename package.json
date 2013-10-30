@@ -4,5 +4,8 @@
   "version": "0.0.0",
   "author": "Maciej Małecki <me@mmalecki.com>",
   "license": "MIT",
-  "main": "./lib/joke.js"
+  "main": "./lib/joke.js",
+  "scripts": {
+    "test": "node test/simple-test.js"
+  }
 }
