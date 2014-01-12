@@ -10,6 +10,6 @@
     "url": "https://github.com/mmalecki/joke.git"
   },
   "scripts": {
-    "test": "node test/simple-test.js"
+    "test": "node test/simple-test.js && node bench/bench.js"
   }
 }
