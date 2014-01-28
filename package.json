@@ -11,5 +11,8 @@
   },
   "scripts": {
     "test": "node test/simple-test.js && node bench/bench.js"
+  },
+  "dependencies": {
+    "cycle": "~1.0.3"
   }
 }
